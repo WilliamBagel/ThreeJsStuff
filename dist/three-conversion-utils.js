@@ -82,9 +82,9 @@ export function shapeToGeometry(shape, { flatShading = true } = {}) {
             v1.vadd(shape.pillarOffset, v1)
             v2.vadd(shape.pillarOffset, v2)
             data.push(
-              new THREE.Vector3(v0.x, v0.y, v0.z),
-              new THREE.Vector3(v1.x, v1.y, v1.z),
-              new THREE.Vector3(v2.x, v2.y, v2.z)
+              new THREE.Vector3(v0.x, v0.y/2, v0.z),
+              new THREE.Vector3(v1.x, v1.y/2, v1.z),
+              new THREE.Vector3(v2.x, v2.y/2, v2.z)
             )
             
 //             geometry.vertices.push(

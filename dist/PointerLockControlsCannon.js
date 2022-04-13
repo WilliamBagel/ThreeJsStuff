@@ -1,5 +1,5 @@
 import * as THREE from 'https://unpkg.com/three@0.122.0/build/three.module.js'
-import * as CANNON from '../../dist/cannon-es.js'
+import * as CANNON from 'https://pmndrs.github.io/cannon-es/dist/cannon-es.js'
 
 /**
  * @author mrdoob / http://mrdoob.com/
